@@ -1,0 +1,3 @@
+import qrcode
+qr = qrcode.make("https://233boy.github.io/tools/qr.html#vmess://eyJ2IjoyLCJwcyI6IjIzM2JveS10Y3AtNDMuMTU5LjE0Ny4xMyIsImFkZCI6IjQzLjE1OS4xNDcuMTMiLCJwb3J0IjoiNTEyOTIiLCJpZCI6ImJmY2Q2NmMyLWJiN2ItNGNmMS05OTNjLWFhOGE4NWYyZmQ5ZiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInBhdGgiOiIifQ==")
+qr.save("qrcode.png")
